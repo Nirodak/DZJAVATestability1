@@ -1,6 +1,6 @@
 public class Main {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         BonusMilesService service = new BonusMilesService();
         int price = 15000;
@@ -8,11 +8,6 @@ public class Main {
         int miles = service.calculate(price);
 
         System.out.println(miles);
-
-
-
-
-
 
 
     }
